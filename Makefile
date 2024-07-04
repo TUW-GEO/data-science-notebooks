@@ -19,7 +19,6 @@ help:
 	@echo "  make notebooks    - Pull the notebooks from the Git repository"
 	@echo "  make environment  - Create the conda environment"
 	@echo "  make kernel       - Create the Jupyter kernel"
-	@echo "  make setup        - Executes setup.py file"
 	@echo "  make all          - Run all the above tasks"
 	@echo "  "
 	@echo "  make teardown     - Remove the environment and kernel"
@@ -31,7 +30,7 @@ help:
 
 .PHONY: all notebooks environment kernel teardown clean
 
-all: notebooks setup environment kernel 
+all: notebooks environment kernel 
 
 # Pull the notebooks from the Git repository
 notebooks: 
@@ -39,9 +38,6 @@ notebooks:
 	git clone $(GIT_REPO) -b $(GIT_BRANCH) $(REPO_NAME)
 	@echo "Repository cloned."
 
-setup:
-	cd $(REPO_NAME)
-	python setup.py
 
 # Create the environment using conda
 environment: 
