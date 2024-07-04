@@ -1,4 +1,4 @@
-name: datascience
+name: ds
 channels:
   - conda-forge
 dependencies:
