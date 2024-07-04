@@ -1,0 +1,6 @@
+# The paths to the datasets should be specified here
+ascat_dyn_slope: ~/shared/datasets/rs/ascat_dyn_slope/
+ascat: ~/shared/datasets/rs/ascat_h121/
+era5: ~/shared/datasets/rs/era5_2023/
+era5_land: ~/shared/datasets/rs/era5_land_2023/
+gldas: ~/shared/datasets/rs/gldas_2023/

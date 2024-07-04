@@ -1,0 +1,36 @@
+name: datascience
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - netCDF4
+  - numpy
+  - scipy
+  - pandas
+  - pykdtree
+  - pyresample
+  - numba
+  - dask
+  - xarray
+  - tqdm
+  - zarr
+  - eomaps
+  - matplotlib
+  - cartopy
+  - ipykernel
+  - ipywidgets
+  - pip
+  - pip:
+    - cadati
+    - lxml
+    - ascat==2.3.1
+    - fibgrid
+    - pygeogrids
+    - pynetcf
+    - cadati
+    - mplcursors
+    - ipympl
+    - seaborn
+    - statsmodels
+    - smadi
+    - pytesmo
