@@ -8,7 +8,7 @@ KERNEL_NAME = ds
 LOCAL_CONDA = ~/.conda
 
 GIT_REPO = https://github.com/npikall/data-science-notebooks.git
-GIT_BRANCH = master
+GIT_BRANCH = main
 REPO_NAME = data-science-notebooks
 
 # Help command to display available targets
