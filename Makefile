@@ -44,7 +44,7 @@ environment:
 	@echo "Creating conda environment..."
 	mkdir -p $(LOCAL_CONDA)/envs
 	cd $(REPO_NAME)
-	mamba env create -p $(LOCAL_CONDA)/envs/$(ENV_NAME) -f $(REPO_NAME)/env/$(ENV_YML)
+	mamba env create -p $(LOCAL_CONDA)/envs/$(ENV_NAME) -f env/$(ENV_YML)
 	@echo "Environment $(ENV_NAME) created."
 
 # Create a Jupyter kernel from the environment
