@@ -36,7 +36,7 @@ all: notebooks setup environment kernel
 # Pull the notebooks from the Git repository
 notebooks: 
 	@echo "Cloning the Git repository..."
-	git clone $(GIT_REPO) -b $(GIT_BRANCH)
+	git clone $(GIT_REPO) -b $(GIT_BRANCH) $(REPO_NAME)
 	@echo "Repository cloned."
 
 setup:
