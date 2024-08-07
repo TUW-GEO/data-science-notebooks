@@ -7,7 +7,7 @@ ENV_NAME = ds
 KERNEL_NAME = ds
 LOCAL_CONDA = ~/.conda
 
-GIT_REPO = https://github.com/npikall/data-science-notebooks.git
+GIT_REPO = https://github.com/TUW-GEO/data-science-notebooks.git
 GIT_BRANCH = main
 REPO_NAME = data-science-notebooks
 
